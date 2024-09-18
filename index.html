@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Netflix</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="">
+        </div>
+        <div class="search">
+            <div class="search-bar">
+                <input type="text" onkeyup="searchMovie()" id="search" placeholder="Search Movie" class="search-box">
+                <img onclick="searchMovie()" src="images/magnifying-glass.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="movies" id="movies"></section>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
